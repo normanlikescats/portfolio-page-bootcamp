@@ -1,3 +1,166 @@
 body {
-  background-color: white;
+  background-color: rgb(2, 32, 41);
+}
+
+h1, h2, h3 {
+  color:rgb(51, 218, 165);
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 300;
+}
+
+
+h1 {
+  font-weight: 600;
+}
+
+p {
+  color:rgb(147, 154, 255);
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 100;
+  opacity: 0.9;
+}
+
+body{
+  padding: 30px;
+}
+
+.flex-home{
+  display: flex;
+  justify-content: center;
+}
+
+.home-button{
+  background-color: rgb(102, 111, 234);
+  width: 200px;
+  padding:10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  margin: 30px 30px 0px 0px;
+  border-radius: 10px;  
+}
+
+.home-button:link {
+  color:rgb(40, 4, 83);
+  text-decoration: none;
+
+}
+
+.home-button:hover {
+  color:rgb(171, 241, 255);
+  text-decoration: none; 
+}
+
+.flex-project-page{
+  display:flex;
+  justify-content: center;
+}
+
+.outgoing-button {
+  background-color: rgb(26, 150, 117);
+  width: 200px;
+  padding:10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  margin: 30px 30px 0px 0px;
+  border-radius: 10px;
+}
+
+.outgoing-link {
+  color:rgb(40, 4, 83);
+  text-decoration: none;  
+}
+
+
+.outgoing-link:hover {
+  color:rgb(171, 241, 255);
+  text-decoration: none; 
+}
+
+.project-banner-image-1{
+  width: 90vw;
+}
+
+.project-banner-image-2{
+  width: 90vw;
+  height: 90vh;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 0% 30%;
+}
+
+
+.flex-container-about {
+  display:flex;
+  flex-wrap: nowrap;
+}
+
+#pfp {
+  padding: 15px 15px 15px 0px;
+  max-width: 20%;
+  object-fit: contain;
+}
+
+.flex-container-projects{
+  display:flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.project-1{
+  max-width: 45vw;
+  box-sizing: border-box;
+}
+
+.project-2{
+  max-width:45vw;
+  box-sizing: border-box;
+}
+
+.project-image {
+  width: 45vw;
+  height: 300px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 0% 30%;
+  opacity: 0.7;
+}
+
+.project-image:hover{
+  opacity: 1;
+}
+
+.end-symbol{
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  body{
+    padding: 25px;
+  }
+  .flex-container-about {
+    flex-direction: column;
+  }
+  #about-me{
+    padding: 0px;
+  }
+  #pfp{
+    max-width: 100%;
+  }
+  .flex-container-projects{
+    flex-direction: column;
+  }
+  .project-1 {
+    width: 90vw;
+  }
+  .project-2 {
+    width: 90vw;
+  }
+  .project-image{
+    width: 90vw;
+  }
 }
