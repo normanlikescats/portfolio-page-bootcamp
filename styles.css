@@ -8,9 +8,18 @@ h1, h2, h3 {
   font-weight: 300;
 }
 
+*::selection {
+  background-color:rgb(51, 218, 165);
+  color: rgb(2, 32, 41);
+}
+
 
 h1 {
   font-weight: 600;
+}
+
+h2 {
+  font-weight: 500;
 }
 
 p {
