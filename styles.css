@@ -108,6 +108,7 @@ body{
   display:flex;
   flex-wrap: nowrap;
   justify-content: space-between;
+  margin: 0px 0px 80px 0px;
 }
 
 .project-1{
@@ -182,6 +183,9 @@ body{
     width: 90vw;
   }
   .project-image{
+    width: 90vw;
+  }
+  .project-text{
     width: 90vw;
   }
 }
